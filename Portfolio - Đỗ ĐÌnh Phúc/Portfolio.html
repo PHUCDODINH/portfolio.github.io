@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Portfolio-Achivement Description</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>Achievement</span> Description.</h1>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#activity">Activities</a></li>
+                    <li><a href="#aacc">AACC</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+                    
+                
+            </nav>
+            <div class="header-text">
+                <p>Grade 12</p>
+                <h1>Hi, I am <span>PHUC.</span><br>From Doan Thi Diem<br> Highschool</h1>
+            </div>
+
+        </div>
+    </div>
+    
+
+   <!------------overview------------------->
+
+    <div id="overview">
+        <div class="container">
+            <h1>Overview</h1>
+            <p>Recognizing the limitations of the VinUni application form, I took the initiative to develop this website. It serves as a comprehensive platform for the admissions staff to gain deeper insights into my profile. Beyond expanding on my achievements and accomplishments, this website is a testament to my commitment and enthusiasm for computer science. The programming and design expertise showcased here stem from my involvement in various game development projects, notably…... Explore this page to delve into my achievements, their alignment with AACC requirements, and detailed insights into my game development endeavors.</p>
+        </div>
+    </div>
+
+
+
+   <!-----------activity--------------->
+
+
+
+    <div id="activity">
+        <div class="container">
+            <div class="row">
+                <div class="project-col-1">
+                    <h1 class=" sub-title">About Me</h1>
+                    <p><span class="presentation">A Technology Enthusiast</span><br> with a determination to gain a thorough insight into <br>computer science and develop a more thriving community.<br><br><span class="presentation">A Determined Learner</span><br> who believes that any dreams and goals<br> are possible with <span>commitment</span> and <span>aspiration</span>. </p>
+                </div>
+                
+                <div class="project-col-2">
+                    <h1 class="sub-title">Experience</h1>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('activities')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Activities</p>
+                    </div>
+
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>2020</span><br><span>First Prize</span>, English Speaking Contest on district level </li>
+                            <li><span>2022</span><br><span>Finalist</span>,  Summit Debating Tourament </li>
+                            <li><span>2023</span><br><span>Finalist</span>, THE 5th NATIONAL ENGLISH OLYMPIC COMPETITION (CITY LEVEL) </li>
+                            <li><span>2020</span><br><span>Fourth Prize</span>, Municipal English contest </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="activities">
+                        <ul>
+                            <li><span>2023 & 2024</span><br><span>Indie Game Developer</span>@ - POP(11/2023) & Detroit(1/2024)</li>
+                            <li><span>2021</span><br><span>School Representative</span> @ - Viet Nam - Korea cultural exchange event</li>
+                            <li><span>2022</span><br><span>School Representative</span> @ - UNICEF English Speaking Contest on<br> disaster risk reduction and climate actions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <!------------AACC----------------->
+
+
+
+    <div id="aacc">
+        <div class="container">
+                <h1 class="sub-title">AACC</h1>
+            <div class="qualities">
+                <p><span class="presentation">A</span><span class="describe">bility</span><br><span>First Prize, English Speaking Contest on district level<br>Finalist, Summit Debating Tournament<br>Finalist,  THE 5th NATIONAL ENGLISH OLYMPIC COMPETITION (CITY LEVEL)<br>Participant @ UNICEF English Speaking Contest on disaster risk reduction and climate actions</span><br><br>-In addition to possessing strong English proficiency, I dedicated effort towards acquiring debating skills and staying informed about global issues through active participation in diverse competitions.<br><br>-Moreover, I demonstrate quick learning capabilities, as evidenced by my ability to grasp the essentials of web and game development, along with their practical applications, within a mere four months, even starting with no prior coding experience.</p>
+                <p><span class="presentation">A</span><span class="describe">spiration</span><br><span>Game Developer @ Detroit(1/2024) and POP(11/2023)<br><br></span>-I firmly believe in aligning my passion for computer science with practical applications. Creating a video game serves as the initial stride in my endeavor. Beyond mere entertainment, my unwavering dedication propels me to transform my vision of an AI program capable of countering terrorism into a tangible reality.</p>
+                <p><span class="presentation">C</span><span class="describe">reativity</span><br>In order to have an outstanding performance, I have always implemented different and uncommon methods<br><br><span>GPA: 9.1 (Top 3 in class)</span><br>-To get higher scores in exams, instead of just focusing on lessons I also learned to analyzed the format of all the previous tests and apply it to my study plan <br><br><span>Game Developer @ Detroit(1/2024) and POP(11/2023)</span><br>-I also utilized my researching skill to allow my games to have features that distinguished it from others such as: Focusing on background animation instead of gameplay, combining different softwares when creating a game,...<br>-To have ideas for my projects, I tried to take inspiration from what I usually do such as( reading comics, watching movies,...)</p>
+                <p><span class="presentation">C</span><span class="describe">ommitment</span><br>I believe the clearest evident for my commitment is how I can stay determined despite a tough start<br><br><span>Finalist, Summit Debating Tournament (2022)</span><br>-This is my first time ever in a debating contest but still, with extensive research and relentless practise I got to the final round of the competition<br><br><span>Game Developer @ Detroit(1/2024) and POP(11/2023)</span><br>-Not only lacking of coding experience, I also struggle with bad time management and my inability to control time for schoolwork and personal projects. Yet, overtime not only did I learn to have better time management, I was also able to completed 2 game projects and a website portfolio within 4 months<br><br><span>Participant @ UNICEF English Speaking Contest on disaster risk reduction and climate actions<br></span>-Even though I was assigned as the script manager and video editor for the team, I was not disappointed just because I don't know anything about editing; instead, I was willing to spend hours on YouTube trying to figure out the best way to make an impressive video with a short deadline.</p>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    
+    <!----------------My Projects-------------------->
+
+     <div id="projects">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="Image/Project2.png">
+                    <div class="layer">
+                        <h3>Detroit</h3>
+                        <p>Using your shield, blocking arrows and protecting the soul - Detroit is a game with really simple format and mechanics but the longer you play the harder it gets</p>
+                        <a href="https://gamejolt.com/games/detroit/869198" target="_blank">See more</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="Image/newproject2.png">
+                    <div class="layer">
+                        <h3>POP</h3>
+                        <p>POP is a game where your only mission is to overcome obstacles. This game offers you more than just challenges; its catchy soundtrack and eye-catching visual effects will make it an enjoyable experience</p>
+                        <a href="https://dodinhphuc.itch.io/pop" target="_blank">See more</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="project-content">
+                <h1>POP</h1>
+                <p>-In POP, your only mission is to overcome obstacles and reach the finish line. This game offers you more than just challenges; its catchy soundtrack and eye-catching visual effects will make it an enjoyable experience.<br><br>-POP was qualified and upload on itch.io, the most prominent platform for idie game developer with an user base of over 100000 - the third highest only after Epic Games and Steam<br><br>-POP was a combination of designing, animating, and coding skills. In order to create POP, I had to take part in three game development courses on Skillshare and underwent numerous instruction videos on YouTube about game design and animation.<br><br>-For a beginner like me, POP really exceeded my expectations, as it gained over 200 downloads in its debut month.</p>
+                <h2>Game Analytics</h2>
+                <img src="Image/Analytics.jpg" class="screenshot">
+                <h2>Screenshots</h2>
+                <img src="Image/popshot1-fotor-2024011415183.jpg" class="screenshot">
+                <img src="Image/popshot2-fotor-20240114151833.jpg" class="screenshot">
+                <h1>Detroit</h1>
+                <p>-Detroit is a game with really simple mechanics in which your only task is to block arrows with your shield and get higher points. Yet it can also be really challenging, given that the longer you play, the harder it gets<br><br>-Detroit is currently available on GameJolt, one of the largest marketplaces for independent developers and the birthplace of many well-known titles.<br><br>-Beyond only having programming and design abilities, research is indispensable in the development of mobile games. The key in the development of Detroit is to conduct extensive research regarding player demand and the current most prominent genre in order to create a pleasure experience<br><br>-Detroit is completed only within a month. As a result of extensive research and commitment, the game was successfully accepted and published on GameJolt - one of the biggest game publishers.</p>
+                <h2>Screenshots</h2>
+                <div class="screenshot">
+                    <img src="Image/detroitsreenshot.jpg" class="screenshot">
+                    <img src="Image/detroitscreenshot2.jpg" class="screenshot">
+                    <img src="Image/detroitscreenshot3.jpg" class="screenshot">
+                    <img src="Image/detroitscreenshot4.jpg" class="screenshot">
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+
+</body>
+
+
+</html>
